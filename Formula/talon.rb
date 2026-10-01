@@ -5,26 +5,26 @@
 class Talon < Formula
   desc "Multi-frontend AI agent with full tool access, streaming, cron jobs, and plugins"
   homepage "https://github.com/thefalconry/talon"
-  version "5.31.0"
+  version "5.31.1"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/thefalconry/talon/releases/download/v5.31.0/talon-darwin-arm64"
-      sha256 "93fffec32a97261844669fd5dc0ea5d5d28ce797ffe93d6f29b3bd8b8bf2939d"
+      url "https://github.com/thefalconry/talon/releases/download/v5.31.1/talon-darwin-arm64"
+      sha256 "0bdb6f21bdd442c98259634c7bbeaee54183e77bb6306c63443ca3a869fa888a"
     else
-      url "https://github.com/thefalconry/talon/releases/download/v5.31.0/talon-darwin-x64"
-      sha256 "15b510d33b733c3f9ae11fc77a981a11dfe76cdfe2a33ccae3c8e367d23e1496"
+      url "https://github.com/thefalconry/talon/releases/download/v5.31.1/talon-darwin-x64"
+      sha256 "1cab65d09882a664d9a5f876bb8e4eb3624d8864265e70ef4e42ccb0f7ad4e01"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/thefalconry/talon/releases/download/v5.31.0/talon-linux-arm64"
-      sha256 "1162db672d769ce6eb0d7b4d6a24bee9e5fea771e463d71ede186076f7b088c2"
+      url "https://github.com/thefalconry/talon/releases/download/v5.31.1/talon-linux-arm64"
+      sha256 "12b542e25182248c46c54bea1a26bf238c5c692b382d562cd5f4790b3dad5e0d"
     else
-      url "https://github.com/thefalconry/talon/releases/download/v5.31.0/talon-linux-x64"
-      sha256 "35781461df590a3eb883822c6537d7b814a740d39afc279fa919e0b1b1154dba"
+      url "https://github.com/thefalconry/talon/releases/download/v5.31.1/talon-linux-x64"
+      sha256 "c7e740837a8f93d9a1d388f3e0a8845323d6fa2fdb0deb5c463ac2c0b25899b8"
     end
   end
 
